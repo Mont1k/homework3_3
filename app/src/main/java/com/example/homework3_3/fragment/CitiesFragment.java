@@ -50,9 +50,9 @@ public class CitiesFragment extends Fragment {
             );
         } else if ("Россия".equals(country)) {
             return Arrays.asList(
-                   // new Item("Москва","https://th.bing.com/th/id/OIP._RjgpzzyXA4RAUyGQuDLrgHaEK?w=279&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"),
-                   // new Item("Санкт-Петербург", "https://th.bing.com/th/id/OIP.ihvDpXvNb4PScpvOP3wCeQHaE0?w=247&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"),
-                   // new Item("Казань","https://th.bing.com/th/id/OIP.80IYZk6AF0jKi3euNFKuaQHaE-?w=199&h=180&c=7&r=0&o=5&dpr=2&pid=1.7")
+                   new Item("Москва","https://th.bing.com/th/id/OIP._RjgpzzyXA4RAUyGQuDLrgHaEK?w=279&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"),
+                   new Item("Санкт-Петербург", "https://th.bing.com/th/id/OIP.ihvDpXvNb4PScpvOP3wCeQHaE0?w=247&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"),
+                   new Item("Казань","https://th.bing.com/th/id/OIP.80IYZk6AF0jKi3euNFKuaQHaE-?w=199&h=180&c=7&r=0&o=5&dpr=2&pid=1.7")
             );
         }
         return Arrays.asList();
